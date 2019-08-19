@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function compare(a,b) {
+        if(String(a)==String(b)){
+            document.write('这两个字符串相同')
+        }
+    }
+    compare("abc","abc")
+    function find(a,b) {
+        var c = a.indexOf("b");
+        if(c==-1){
+            document.write(b+"不在字符串"+a+"中")
+        }else{
+            document.write(b+"在字符串"+a+"中")
+        }
+    }
+
+</script>
+
+</body>
+</html>

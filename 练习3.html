@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function get(path,a) {
+       var c = path.indexOf(a);
+         if(c!==-1){
+           document.write(a+'<br>');
+             }
+}
+get('http://localhost:4000/chapter1/string.html','localhost')
+    var path ='http://localhost:4000/chapter1/string.html';
+    var b = path.substr(-4,4);
+    document.write(b);
+</script>
+</body>
+</html>
